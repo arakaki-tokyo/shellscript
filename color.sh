@@ -1,13 +1,5 @@
 #!/bin/bash
 
-for i in {1..255}
-do 
-printf "\e[38;5;%dm■" $i 
-done
-
-echo -e "end\e[m"
-
-
 for r in {32..0}
 do
 	((b = 32 - r ))
